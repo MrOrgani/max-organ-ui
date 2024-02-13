@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 
-import { Button } from './Button';
+import '../../globals.css';
+import { Button } from '../../src/components/ui/button';
 import { Icon } from '../Icon/Icon';
 import { StoryLinkWrapper } from '../LinkWrapper';
-
 
 const CustomButton = styled.button`
   border: 1px solid green;
@@ -326,4 +326,3 @@ export const AnchorWrapper = {
     </div>
   ),
 };
-
