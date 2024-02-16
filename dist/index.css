@@ -452,6 +452,9 @@ body {
 .bg-secondary {
   background-color: hsl(var(--secondary));
 }
+.bg-secondary\/80 {
+  background-color: hsl(var(--secondary) / 0.8);
+}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;

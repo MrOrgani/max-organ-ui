@@ -85,9 +85,9 @@ var buttonVariants = (0, import_class_variance_authority.cva)(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        "mym-primary": "py-4 px-8 rounded-3xl bg-mym-primary uppercase text-xl font-bold text-mym-white",
-        "mym-secondary": "py-4 px-8 rounded-3xl bg-mym-secondary uppercase text-xl font-bold text-mym-black hover:bg-mym-black hover:text-mym-primary",
-        "mym-outline": "py-4 px-8 rounded-3xl bg-mym-black font-medium text-mym-white border-[0.75px] text-[13px] border-mym-grey hover:bg-mym-black hover:text-mym-primary hover:border-mym-primary"
+        "mym-primary": "py-4 px-8 rounded-3xl bg-mym-primary uppercase font-bold text-mym-white text-xs",
+        "mym-secondary": "py-4 px-8 rounded-3xl bg-mym-secondary uppercase font-bold text-mym-black hover:bg-mym-black hover:text-mym-primary text-xs",
+        "mym-outline": "py-4 px-8 rounded-3xl bg-mym-black font-medium text-mym-white border-[0.75px] border-mym-grey hover:bg-mym-black hover:text-mym-primary hover:border-mym-primary text-xs"
       },
       size: {
         default: "h-10 px-4 py-2",
@@ -109,10 +109,7 @@ var Button = React.forwardRef(
     return /* @__PURE__ */ React.createElement(
       Comp,
       __spreadValues({
-        className: cn(
-          buttonVariants({ variant, size, className })
-          // '  font-poppins',
-        ),
+        className: cn(buttonVariants({ variant, size, className })),
         ref
       }, props)
     );
