@@ -1,6 +1,6 @@
 {
   "name": "maxorgani",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "main": "dist/index.js",
   "description": "A collection of React components for building user interfaces made by Max Organi",
