@@ -1,3 +1,5 @@
+import '../src/output.css';
+
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
@@ -7,6 +9,15 @@ const preview = {
         color: /(background|color)$/i,
         date: /Date$/i,
       },
+    },
+    backgrounds: {
+      default: 'dark',
+      values: [
+        {
+          name: 'dark',
+          value: '#04080F',
+        },
+      ],
     },
   },
 };

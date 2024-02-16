@@ -1,0 +1,26 @@
+# Ignore development files and directories
+node_modules/
+src/
+tests/
+webpack.config.js
+.babelrc
+.eslintrc
+.gitignore
+
+# Ignore build artifacts
+dist/
+build/
+*.log
+*.map
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore documentation and example files
+docs/
+examples/
+
+# Ignore any other unnecessary files or directories
